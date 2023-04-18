@@ -8,8 +8,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "linux-deploy-gh": "GH=1 yarn docs:build && bash scripts/deploy-gh.sh",
-    "windows-deploy-gh": "GH=1 yarn docs:build && powershell scripts/deploy-gh.sh"
+    "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh"
   },
   "devDependencies": {
     "vuepress": "^2.0.0-beta.61"

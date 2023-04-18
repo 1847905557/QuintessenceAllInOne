@@ -3,6 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+# 确保 vuepress 安装了
+yarn add -D vuepress@next
+
 # 生成静态文件
 npm run docs:build
 

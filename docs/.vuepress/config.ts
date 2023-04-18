@@ -6,7 +6,10 @@ export default defineUserConfig({
     description: '元素法典 - Quintessence All In One',
     base: '/QuintessenceAllInOne/',
     theme: defaultTheme({
-        // 默认主题配置
+        docsRepo: 'https://github.com/1847905557/QuintessenceAllInOne',
+        docsBranch: 'main',
+        docsDir: 'docs',
+        editLinkPattern: ':repo/edit/:branch/:path',
         navbar: [
             {
                 text: '首页',

@@ -15,9 +15,110 @@ export default defineUserConfig({
         ],
         sidebar: [
             {
-                text: 'home',
-                link: '/home'
-            }
-        ]
+                text: '首页',
+                link: '/',
+            },
+            {
+              text: 'Stable Diffusion Web-UI',
+              link: '/section-1-sd/',
+              collapsible: true,
+              children: [
+                {
+                    text: 'chapter 1',
+                    link: '/section-1-sd/chapter-1-intro/',
+                    children: [],
+                },
+                {
+                    text: 'chapter 2',
+                    link: '/section-1-sd/chapter-2-prompt/',
+                    children: [],
+                },
+                {
+                    text: 'chapter 3',
+                    link: '/section-1-sd/chapter-3-model/',
+                    children: [],
+                },
+                {
+                    text: 'chapter 4',
+                    link: '/section-1-sd/chapter-4-training/',
+                    children: [],
+                },
+                {
+                    text: 'chapter 5',
+                    link: '/section-1-sd/chapter-5-tip/',
+                    children: [],
+                },
+              ],
+            },
+            {
+                text: 'GPT Model',
+                link: '/section-2-gpt/',
+                collapsible: true,
+                children: [
+                  {
+                      text: 'chapter 1',
+                      link: '/section-2-gpt/chapter-1-intro/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 2',
+                      link: '/section-2-gpt/chapter-2-basic/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 3',
+                      link: '/section-2-gpt/chapter-3-personality/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 4',
+                      link: '/section-2-gpt/chapter-4-creative/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 5',
+                      link: '/section-2-gpt/chapter-5-deployment/',
+                      children: [],
+                  },
+                  {
+                    text: 'chapter 6',
+                    link: '/section-2-gpt/chapter-6-tip/',
+                    children: [],
+                },
+                ],
+            },
+            {
+                text: 'AI Plus',
+                link: '/section-3-aip/',
+                collapsible: true,
+                children: [
+                  {
+                      text: 'chapter 1',
+                      link: '/section-3-aip/chapter-1-intro/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 2',
+                      link: '/section-3-aip/chapter-2-photoshop/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 3',
+                      link: '/section-3-aip/chapter-3-blender/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 4',
+                      link: '/section-3-aip/chapter-4-bot/',
+                      children: [],
+                  },
+                  {
+                      text: 'chapter 5',
+                      link: '/section-3-aip/chapter-5-gptuber/',
+                      children: [],
+                  },
+                ],
+            },
+        ],
     })
 });

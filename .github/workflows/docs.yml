@@ -39,7 +39,7 @@ jobs:
           # 缓存 pnpm 依赖
           cache: pnpm
 
-      # 安装前置？
+      # 安装前置
       - name: Make dependencies
         run: pnpm add -D vuepress@next @vuepress/client@next vue
 

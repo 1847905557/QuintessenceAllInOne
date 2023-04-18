@@ -11,7 +11,11 @@ export default defineUserConfig({
             {
                 text: '首页',
                 link: '/'
-            }
+            },
+            {
+                text: 'Github 项目',
+                link: 'https://github.com/1847905557/QuintessenceAllInOne'
+            },
         ],
         sidebar: [
             {

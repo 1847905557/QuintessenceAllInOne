@@ -11,6 +11,9 @@
     "deploy-gh": "GH=1 yarn docs:build && bash deploy-gh.sh"
   },
   "devDependencies": {
+    "vuepress": "2.0.0-beta.61"
+  },
+  "devDependencies_backup": {
     "vuepress": "^2.0.0-beta.61"
   }
 }

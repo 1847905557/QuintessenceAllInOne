@@ -1,5 +1,5 @@
 test
 push test
-Mahirun desu
+Mahirun test
 
 dynamic with Action

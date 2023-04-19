@@ -1,0 +1,1 @@
+import{_ as t,p as n,q as s,R as e}from"./framework-5866ffd3.js";const c={},o=e("p",null,"test push test Mahirun test",-1),_=e("p",null,"dynamic with Action",-1),i=[o,_];function a(l,r){return n(),s("div",null,i)}const h=t(c,[["render",a],["__file","index.html.vue"]]);export{h as default};
